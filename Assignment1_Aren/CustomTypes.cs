@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TypesByAren
+namespace CustomTypes
 {
-    public struct IntByAren
+    public struct CustomInt
     {
         private int Num;
 
-        public IntByAren(int num) { Num = num; }
+        public CustomInt(int num) { Num = num; }
 
         public int GetValue() { return Num; }
-        public void SetValue(IntByAren A)
+        public void SetValue(CustomInt A)
         {
             this.Num = A.Num;
         }
@@ -25,126 +25,125 @@ namespace TypesByAren
         {
             return Num.ToString();
         }
-        //operatorneri overloading
-        public static IntByAren operator +(IntByAren A, IntByAren B)
+        //Overloading operators
+        public static CustomInt operator +(CustomInt A, CustomInt B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num + B.Num;
             return C;
         }
-        public static IntByAren operator +(IntByAren A, int B)
+        public static CustomInt operator +(CustomInt A, int B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num + B;
             return C;
         }
-        public static IntByAren operator -(IntByAren A, IntByAren B)
+        public static CustomInt operator -(CustomInt A, CustomInt B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num - B.Num;
             return C;
         }
-        public static IntByAren operator -(IntByAren A, int B)
+        public static CustomInt operator -(CustomInt A, int B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num - B;
             return C;
         }
-        public static IntByAren operator *(IntByAren A, IntByAren B)
+        public static CustomInt operator *(CustomInt A, CustomInt B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num * B.Num;
             return C;
         }
-        public static IntByAren operator *(IntByAren A, int B)
+        public static CustomInt operator *(CustomInt A, int B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num * B;
             return C;
         }
-        public static IntByAren operator /(IntByAren A, IntByAren B)
+        public static CustomInt operator /(CustomInt A, CustomInt B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num / B.Num;
             return C;
         }
-        public static IntByAren operator /(IntByAren A, int B)
+        public static CustomInt operator /(CustomInt A, int B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num / B;
             return C;
         }
-        public static IntByAren operator %(IntByAren A, IntByAren B)
+        public static CustomInt operator %(CustomInt A, CustomInt B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num % B.Num;
             return C;
         }
-        public static IntByAren operator %(IntByAren A, int B)
+        public static CustomInt operator %(CustomInt A, int B)
         {
-            IntByAren C;
+            CustomInt C;
             C.Num = A.Num % B;
             return C;
         }
-        public static IntByAren operator ++(IntByAren A)
+        public static CustomInt operator ++(CustomInt A)
         {
             A.Num++;
             return A;
         }
-        public static IntByAren operator --(IntByAren A)
+        public static CustomInt operator --(CustomInt A)
         {
             A.Num--;
             return A;
         }
-        public static bool operator ==(IntByAren A, IntByAren B)
+        public static bool operator ==(CustomInt A, CustomInt B)
         {
             return A.Num == B.Num;
         }
-        public static bool operator ==(IntByAren A, int B)
+        public static bool operator ==(CustomInt A, int B)
         {
             return A.Num == B;
         }
-        public static bool operator !=(IntByAren A, IntByAren B)
+        public static bool operator !=(CustomInt A, CustomInt B)
         {
             return A.Num != B.Num;
         }
-        public static bool operator !=(IntByAren A, int B)
+        public static bool operator !=(CustomInt A, int B)
         {
             return A.Num != B;
         }
-        public static bool operator >(IntByAren A, IntByAren B)
+        public static bool operator >(CustomInt A, CustomInt B)
         {
             return A.Num > B.Num;
         }
-        public static bool operator >(IntByAren A, int B)
+        public static bool operator >(CustomInt A, int B)
         {
             return A.Num > B;
         }
-        public static bool operator <(IntByAren A, IntByAren B)
+        public static bool operator <(CustomInt A, CustomInt B)
         {
             return A.Num < B.Num;
         }
-        public static bool operator <(IntByAren A, int B)
+        public static bool operator <(CustomInt A, int B)
         {
             return A.Num < B;
         }
-        public static bool operator >=(IntByAren A, IntByAren B)
+        public static bool operator >=(CustomInt A, CustomInt B)
         {
             return A.Num >= B.Num;
         }
-        public static bool operator >=(IntByAren A, int B)
+        public static bool operator >=(CustomInt A, int B)
         {
             return A.Num >= B;
         }
-        public static bool operator <=(IntByAren A, IntByAren B)
+        public static bool operator <=(CustomInt A, CustomInt B)
         {
             return A.Num <= B.Num;
         }
-        public static bool operator <=(IntByAren A, int B)
+        public static bool operator <=(CustomInt A, int B)
         {
             return A.Num <= B;
         }
-        //operatorneri overloading
         public override bool Equals(object obj)
         {
             return base.Equals(obj);
@@ -155,15 +154,15 @@ namespace TypesByAren
         }
     }
     
-    public struct DoubleByAren
+    public struct CustomDouble
     {
         private double Num;
 
-        public DoubleByAren(double num) { Num = num; }
+        public CustomDouble(double num) { Num = num; }
 
         public double GetValue() { return Num; }
         public decimal GetDecimalValue() { decimal dec; dec = Convert.ToDecimal(Num); return dec; }
-        public void SetValue(DoubleByAren A)
+        public void SetValue(CustomDouble A)
         {
             this.Num = A.Num;
         }
@@ -180,159 +179,159 @@ namespace TypesByAren
             return Num.ToString();
         }
 
-        public static DoubleByAren operator +(DoubleByAren A, DoubleByAren B)
+        public static CustomDouble operator +(CustomDouble A, CustomDouble B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num + B.Num;
             return C;
         }
-        public static DoubleByAren operator +(DoubleByAren A, int B)
+        public static CustomDouble operator +(CustomDouble A, int B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num + Convert.ToDouble(B);
             return C;
         }
-        public static DoubleByAren operator +(DoubleByAren A, double B)
+        public static CustomDouble operator +(CustomDouble A, double B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num + B;
             return C;
         }
-        public static DoubleByAren operator -(DoubleByAren A, DoubleByAren B)
+        public static CustomDouble operator -(CustomDouble A, CustomDouble B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num - B.Num;
             return C;
         }
-        public static DoubleByAren operator -(DoubleByAren A, int B)
+        public static CustomDouble operator -(CustomDouble A, int B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num - Convert.ToDouble(B);
             return C;
         }
-        public static DoubleByAren operator -(DoubleByAren A, double B)
+        public static CustomDouble operator -(CustomDouble A, double B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num - B;
             return C;
         }
-        public static DoubleByAren operator *(DoubleByAren A, DoubleByAren B)
+        public static CustomDouble operator *(CustomDouble A, CustomDouble B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num * B.Num;
             return C;
         }
-        public static DoubleByAren operator *(DoubleByAren A, double B)
+        public static CustomDouble operator *(CustomDouble A, double B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num * B;
             return C;
         }
-        public static DoubleByAren operator *(DoubleByAren A, int B)
+        public static CustomDouble operator *(CustomDouble A, int B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num * Convert.ToDouble(B);
             return C;
         }
-        public static DoubleByAren operator /(DoubleByAren A, DoubleByAren B)
+        public static CustomDouble operator /(CustomDouble A, CustomDouble B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num / B.Num;
             return C;
         }
-        public static DoubleByAren operator /(DoubleByAren A, double B)
+        public static CustomDouble operator /(CustomDouble A, double B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num / B;
             return C;
         }
-        public static DoubleByAren operator /(DoubleByAren A, int B)
+        public static CustomDouble operator /(CustomDouble A, int B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num / Convert.ToDouble(B);
             return C;
         }
-        public static DoubleByAren operator %(DoubleByAren A, DoubleByAren B)
+        public static CustomDouble operator %(CustomDouble A, CustomDouble B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num % B.Num;
             return C;
         }
-        public static DoubleByAren operator %(DoubleByAren A, int B)
+        public static CustomDouble operator %(CustomDouble A, int B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num % Convert.ToDouble(B);
             return C;
         }
-        public static DoubleByAren operator %(DoubleByAren A, double B)
+        public static CustomDouble operator %(CustomDouble A, double B)
         {
-            DoubleByAren C;
+            CustomDouble C;
             C.Num = A.Num % B;
             return C;
         }
-        public static DoubleByAren operator ++(DoubleByAren A)
+        public static CustomDouble operator ++(CustomDouble A)
         {
             A.Num++;
             return A;
         }
-        public static DoubleByAren operator --(DoubleByAren A)
+        public static CustomDouble operator --(CustomDouble A)
         {
             A.Num--;
             return A;
         }
-        public static bool operator ==(DoubleByAren A, DoubleByAren B)
+        public static bool operator ==(CustomDouble A, CustomDouble B)
         {
             return A.Num == B.Num;
         }
-        public static bool operator !=(DoubleByAren A, DoubleByAren B)
+        public static bool operator !=(CustomDouble A, CustomDouble B)
         {
             return A.Num == B.Num;
         }
-        public static bool operator ==(DoubleByAren A, double B)
+        public static bool operator ==(CustomDouble A, double B)
         {
             return A.Num == B;
         }
-        public static bool operator !=(DoubleByAren A, double B)
+        public static bool operator !=(CustomDouble A, double B)
         {
             return A.Num == B;
         }
-        public static bool operator ==(DoubleByAren A, int B)
+        public static bool operator ==(CustomDouble A, int B)
         {
             return A.Num == Convert.ToDouble(B);
         }
-        public static bool operator !=(DoubleByAren A, int B)
+        public static bool operator !=(CustomDouble A, int B)
         {
             return A.Num == Convert.ToDouble(B);
         }
-        public static bool operator >(DoubleByAren A, DoubleByAren B)
+        public static bool operator >(CustomDouble A, CustomDouble B)
         {
             return A.Num > B.Num;
         }
-        public static bool operator <(DoubleByAren A, DoubleByAren B)
+        public static bool operator <(CustomDouble A, CustomDouble B)
         {
             return A.Num < B.Num;
         }
-        public static bool operator >(DoubleByAren A, int B)
+        public static bool operator >(CustomDouble A, int B)
         {
             return A.Num > Convert.ToDouble(B);
         }
-        public static bool operator <(DoubleByAren A, int B)
+        public static bool operator <(CustomDouble A, int B)
         {
             return A.Num < Convert.ToDouble(B);
         }
-        public static bool operator >(DoubleByAren A, double B)
+        public static bool operator >(CustomDouble A, double B)
         {
             return A.Num > Convert.ToDouble(B);
         }
-        public static bool operator <(DoubleByAren A, double B)
+        public static bool operator <(CustomDouble A, double B)
         {
             return A.Num < Convert.ToDouble(B);
         }
-        public static bool operator >=(DoubleByAren A, DoubleByAren B)
+        public static bool operator >=(CustomDouble A, CustomDouble B)
         {
             return A.Num >= B.Num;
         }
-        public static bool operator <=(DoubleByAren A, DoubleByAren B)
+        public static bool operator <=(CustomDouble A, CustomDouble B)
         {
             return A.Num <= B.Num;
         }
