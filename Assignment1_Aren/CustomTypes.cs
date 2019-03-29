@@ -9,7 +9,7 @@ namespace CustomTypes
     public struct CustomInt
     {
         private int Num;
-
+        
         public CustomInt(int num) { Num = num; }
 
         public int GetValue() { return Num; }

@@ -25,3 +25,4 @@ C:\Users\arenz\OneDrive\Документы\GitHub\Assignment1_Aren\Assignment1_A
 C:\Users\arenz\OneDrive\Документы\GitHub\Assignment1_Aren\Assignment1_Aren\obj\Debug\Assignment1_Aren.csproj.CoreCompileInputs.cache
 C:\Users\arenz\OneDrive\Документы\GitHub\Assignment1_Aren\Assignment1_Aren\obj\Debug\Assignment1_Aren.exe
 C:\Users\arenz\OneDrive\Документы\GitHub\Assignment1_Aren\Assignment1_Aren\obj\Debug\Assignment1_Aren.pdb
+C:\Users\arenz\OneDrive\Документы\GitHub\Assignment1_Aren\Assignment1_Aren\obj\Debug\Assignment1_Aren.csprojAssemblyReference.cache

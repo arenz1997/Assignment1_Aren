@@ -120,7 +120,7 @@ namespace Assignment1_Aren
             Console.Write("Second number:\tb = ");
             snum2 = Console.ReadLine();
             Console.WriteLine();
-
+            
             {//checking if the numbers are inputed correctly
                 bool realpart_iscorrect = true;
                 if ((snum1[0] == '+') || (snum2[0] == '0')) realpart_iscorrect = false;
