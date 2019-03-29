@@ -1,0 +1,7 @@
+C:\Users\arenz\source\repos\Pakagcer\Pakagcer\bin\Debug\Pakagcer.exe.config
+C:\Users\arenz\source\repos\Pakagcer\Pakagcer\bin\Debug\Pakagcer.exe
+C:\Users\arenz\source\repos\Pakagcer\Pakagcer\bin\Debug\Pakagcer.pdb
+C:\Users\arenz\source\repos\Pakagcer\Pakagcer\obj\Debug\Pakagcer.csprojAssemblyReference.cache
+C:\Users\arenz\source\repos\Pakagcer\Pakagcer\obj\Debug\Pakagcer.csproj.CoreCompileInputs.cache
+C:\Users\arenz\source\repos\Pakagcer\Pakagcer\obj\Debug\Pakagcer.exe
+C:\Users\arenz\source\repos\Pakagcer\Pakagcer\obj\Debug\Pakagcer.pdb
