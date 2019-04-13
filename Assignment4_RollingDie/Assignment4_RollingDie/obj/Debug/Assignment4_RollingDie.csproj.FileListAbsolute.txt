@@ -1,0 +1,7 @@
+C:\Users\arenz\Source\Repos\Homeworks\Assignment4_RollingDie\Assignment4_RollingDie\bin\Debug\Assignment4_RollingDie.exe.config
+C:\Users\arenz\Source\Repos\Homeworks\Assignment4_RollingDie\Assignment4_RollingDie\bin\Debug\Assignment4_RollingDie.exe
+C:\Users\arenz\Source\Repos\Homeworks\Assignment4_RollingDie\Assignment4_RollingDie\bin\Debug\Assignment4_RollingDie.pdb
+C:\Users\arenz\Source\Repos\Homeworks\Assignment4_RollingDie\Assignment4_RollingDie\obj\Debug\Assignment4_RollingDie.csprojAssemblyReference.cache
+C:\Users\arenz\Source\Repos\Homeworks\Assignment4_RollingDie\Assignment4_RollingDie\obj\Debug\Assignment4_RollingDie.csproj.CoreCompileInputs.cache
+C:\Users\arenz\Source\Repos\Homeworks\Assignment4_RollingDie\Assignment4_RollingDie\obj\Debug\Assignment4_RollingDie.exe
+C:\Users\arenz\Source\Repos\Homeworks\Assignment4_RollingDie\Assignment4_RollingDie\obj\Debug\Assignment4_RollingDie.pdb
