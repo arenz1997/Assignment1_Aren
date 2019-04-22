@@ -1,0 +1,7 @@
+C:\Users\arenz\source\repos\Homeworks\Assignment5\Exercise1\bin\Debug\Exercise1.exe.config
+C:\Users\arenz\source\repos\Homeworks\Assignment5\Exercise1\bin\Debug\Exercise1.exe
+C:\Users\arenz\source\repos\Homeworks\Assignment5\Exercise1\bin\Debug\Exercise1.pdb
+C:\Users\arenz\source\repos\Homeworks\Assignment5\Exercise1\obj\Debug\Exercise1.csprojAssemblyReference.cache
+C:\Users\arenz\source\repos\Homeworks\Assignment5\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
+C:\Users\arenz\source\repos\Homeworks\Assignment5\Exercise1\obj\Debug\Exercise1.exe
+C:\Users\arenz\source\repos\Homeworks\Assignment5\Exercise1\obj\Debug\Exercise1.pdb
