@@ -164,7 +164,7 @@ namespace Assignment6
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return ((IDictionary)this).GetEnumerator();// (brndzel em)
+            return ((IDictionary)this).GetEnumerator();
         }
     }
 }
