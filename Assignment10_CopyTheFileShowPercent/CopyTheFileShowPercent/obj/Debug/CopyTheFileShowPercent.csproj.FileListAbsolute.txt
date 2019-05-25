@@ -1,0 +1,7 @@
+C:\Users\arenz\source\repos\CopyTheFileShowPercent\CopyTheFileShowPercent\bin\Debug\CopyTheFileShowPercent.exe.config
+C:\Users\arenz\source\repos\CopyTheFileShowPercent\CopyTheFileShowPercent\bin\Debug\CopyTheFileShowPercent.exe
+C:\Users\arenz\source\repos\CopyTheFileShowPercent\CopyTheFileShowPercent\bin\Debug\CopyTheFileShowPercent.pdb
+C:\Users\arenz\source\repos\CopyTheFileShowPercent\CopyTheFileShowPercent\obj\Debug\CopyTheFileShowPercent.csproj.CoreCompileInputs.cache
+C:\Users\arenz\source\repos\CopyTheFileShowPercent\CopyTheFileShowPercent\obj\Debug\CopyTheFileShowPercent.exe
+C:\Users\arenz\source\repos\CopyTheFileShowPercent\CopyTheFileShowPercent\obj\Debug\CopyTheFileShowPercent.pdb
+C:\Users\arenz\source\repos\CopyTheFileShowPercent\CopyTheFileShowPercent\obj\Debug\CopyTheFileShowPercent.csprojAssemblyReference.cache
